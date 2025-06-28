@@ -10,7 +10,7 @@ import longi from './clouds/longitude.png'
 import lati from './clouds/global.png'
 
 
-const Weather = () => {
+const weather = () => {
 
 
   const [input, setInput] = useState('');
@@ -132,4 +132,4 @@ const Weather = () => {
   )
 }
 
-export default Weather
+export default weather
