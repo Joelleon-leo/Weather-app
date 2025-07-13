@@ -65,7 +65,7 @@ const weather = () => {
   }
 
   return (
-    <div className='bg-transparent border-4 border-sky-700 outline-2 outline-offset-2 outline-sky-800 rounded-2xl p-5 m-5'>
+    <div className='bg-transparent border-4 border-sky-700 outline-2 outline-offset-2 outline-sky-800 rounded-2xl  m-2'>
 
     {/* ------------------------------------ search bar --------------------------------- */}
 
@@ -91,7 +91,7 @@ const weather = () => {
 
             {/* ------------------------------------ wind speed and humidity--------------------------------- */}
 
-        <div className=' text-xl flex justify-between w-[400px] m-1 p-1'>
+        <div className=' text-xl flex justify-between w-[400px]  p-1'>
           <div className='flex flex-col p-2'>
             <div className='flex '>
               <p>Wind Speed</p>
